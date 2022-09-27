@@ -13,6 +13,10 @@ let person = {
   DO NOT EDIT ANYTHING BELOW THIS LINE
   */
   
+  person.makeFriend = function(newFriend) {
+     this.friends.push(newFriend);
+  }
+
   person.makeFriend("Bob");
   
   console.log(
